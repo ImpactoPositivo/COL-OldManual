@@ -15,14 +15,13 @@ header#cabecalho img#logo {
 
 header#cabecalho {
     width: 900px;
-    height: 120px;
     background-color: #791e95;
     margin: 100px auto 0px auto;
 }
 
 header#cabecalho h1 {
 	font-family: 'Roboto', sans-serif;
-    font-size: 35pt;
+    font-size: 2.5em;
     font-weight: bolder;
     color: #ffffff;
     padding: 20px 0px 0px 5px;
@@ -31,11 +30,20 @@ header#cabecalho h1 {
 
 header#cabecalho h2 {
 	font-family: 'Roboto', sans-serif;
-    font-size: 12pt;
+    font-size: 2.5vw;
     color: #ffffff;
     padding: 0px 0px 20px 5px; /* sup dir inf esq */
     margin: 0px 0px 0px 10px;
 }
+
+header#cabecalho p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: #ffffff;
+    padding: 20px 0px 0px 5px;
+    margin: 0px 0px 0px 10px;
+}
+
 
 header#cabecalho h3 {
 	font-family: 'Roboto', sans-serif;
@@ -162,6 +170,7 @@ footer#rodape h1 {
 
 footer#rodape p {
     font-family: 'Roboto', sans-serif;
+    
     font-size: 10pt;
     text-align: center;
     line-height: 5px;

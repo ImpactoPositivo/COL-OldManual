@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 600px;
+    margin: auto;
+}
+
+header div {
+    background-color: #791e95;
+    color: #ffffff;
+    text-align: center;
+}
+
+header img {
+    width: 20%;
+    padding: -30px;
+    position: left top;
+    margin: 10px 0px 10px 0px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 10px;    
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+header p {
+    background-color: #791e95;
+    font-size: .8em;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 10px auto 10px auto;
+    list-style-position: inside;
+}
+
+section h3 {
+    font-size: 1.3em;
+    color: #791e95;
+    padding: 10px 0px 10px 5px;
+}
+
+section h4 {
+    font-size: 1em;
+    color: #413b3b;
+    padding: 10px;
+}
+
+section p {
+    font-size: 1em;
+    text-align: justify;
+    color: #413b3b;
+    padding-left: 5px;
+    line-height: 1.5em;
+}
+
+section li {
+    height: 1.4em;
+    padding-left: 10px;
+}
+
+section li a {
+    color: #791e95;
+    text-decoration: none;
+}
+
+section p a {
+    color: #413b3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section li a:hover {
+    color: #4a12e4;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section p a:hover {
+    color: #791e95;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.tela {
+    padding: 10px 0px 10px 0px;
+    margin: 20px 0px 30px 0px;
+}
+
+.tela img {
+    width: 100%;
+    margin: auto; 
+    box-shadow: 0px 2px 8px rgba(0,0,0,.5);
+}
+
+.tela figcaption {
+    font-size: .8em;
+    color: #791e95;
+    float:right
+}
+
+footer {
+    width: 600px;
+    margin: 0px auto 0px auto;
+    background-color: #791e95;
+}
+
+footer h1 {
+    font-size: .8em;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p a {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
