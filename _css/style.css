@@ -6,10 +6,11 @@
     margin: 0px;
 }
 
-body {
+.corpo {
     font-family: 'Roboto', sans-serif;
     width: 600px;
     margin: auto;
+
 }
 
 header div {
@@ -117,11 +118,11 @@ section p a:hover {
 }
 
 .mobile {
-    width: 200px;
-    display: block;
+    width: 160px;
     margin: 20px 0px 40px 0px;  
     position: relative;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    float: left;
 }
 
 .mobile img {
@@ -135,6 +136,13 @@ section p a:hover {
     padding: 0px;
     margin-top: 5px;
     float: right;
+}
+
+div#wrapp {
+    margin-left: 170px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
 }
 
 div#atencao {
