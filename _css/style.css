@@ -74,7 +74,7 @@ section p {
 
 section li {
     height: 1.4em;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 section li a {
@@ -168,7 +168,6 @@ article p {
 }
 
 footer {
-    width: 600px;
     margin: 0px auto 0px auto;
     background-color: #791e95;
 }
