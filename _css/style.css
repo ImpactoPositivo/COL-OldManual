@@ -1,6 +1,24 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@700&display=swap');
 
+:root {
+    --cor1: #07B0F2;
+    --cor2: #FFD600;
+    --cor3: #F2B705;
+    --cor4: #49A646;
+    --cor5: #1B5E20;
+    --cor6: #7B1FA2;
+    --cor7: #FF5074;
+    --cor8: #F44336;
+    --cor9: #607D8B;
+    --cor10:#343434;
+
+    --fonte1: 'Roboto 300', sans-serif;
+    --fonte2: 'Roboto 400', sans-serif;
+    --fonte3: 'Roboto 700', sans-serif;
+    --fonte4: 'Roboto 900', sans-serif;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -10,7 +28,18 @@
     font-family: 'Roboto', sans-serif;
     width: 600px;
     margin: auto;
+    background-color: #f0efef;
+}
 
+header figure {
+    background-color: var(--cor3);
+}
+
+header img {
+    width: 10%;
+    padding: -30px;
+    position: left top;
+    margin: 10px 0px 10px 10px;
 }
 
 header div {
@@ -19,52 +48,49 @@ header div {
     text-align: center;
 }
 
-header img {
-    width: 20%;
-    padding: -30px;
-    position: left top;
-    margin: 10px 0px 10px 0px;
-}
-
 header h1 {
-    font-size: 2em;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
     font-weight: bolder;
-    padding-top: 10px;    
+    padding-top: 10px;   
 }
 
 header h2 {
-    font-size: 1.5em;
+    font-family: var(--fonte2);
+    font-size: 1em;
     font-weight: bolder;
     padding: 10px;
 }
 
 header p {
     background-color: #791e95;
+    font-family: var(--fonte1);
     font-size: .8em;
     font-weight: bolder;
-    color: #ffffff;
+    color: white;
     padding: 10px;
     text-align: center;
 }
 
-section {
+.principal {
     margin: 10px auto 10px auto;
+    padding: 20px;
     list-style-position: inside;
 }
 
-section > h3 {
+.principal > h3 {
     font-size: 1.3em;
     color: #791e95;
     padding: 10px 0px 10px 5px;
 }
 
-section h4 {
+.principal h4 {
     font-size: 1em;
     color: #413b3b;
     padding: 10px;
 }
 
-section p {
+.principal p {
     font-size: 1em;
     text-align: justify;
     color: #413b3b;
@@ -72,29 +98,29 @@ section p {
     line-height: 1.5em;
 }
 
-section li {
+.principal li {
     height: 1.4em;
     padding-left: 15px;
 }
 
-section li a {
+.principal li a {
     color: #791e95;
     text-decoration: none;
 }
 
-section p a {
+.principal p a {
     color: #413b3b;
     text-decoration: none;
     font-weight: bold;
 }
 
-section li a:hover {
+.principal li a:hover {
     color: #4a12e4;
     text-decoration: underline;
     font-weight: bolder;
 }
 
-section p a:hover {
+.principal p a:hover {
     color: #791e95;
     text-decoration: underline;
     font-weight: bolder;
@@ -168,34 +194,139 @@ article p {
 }
 
 footer {
-    margin: 0px auto 0px auto;
-    background-color: #791e95;
+    background-color: #7B1FA2;
+    padding: 20px 0;
+    clear: both;  
 }
 
-footer h1 {
-    font-size: .8em;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
 }
 
-footer p {
-    font-size: 0.8em;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-footer p a {
-    font-size: 0.8em;
-    font-weight: bold;
+.footer-col {
+    width: 22%;
+    padding: 0 15px;
+}
+
+.footer-col img{
+    width: 60%;
+}
+
+.footer-col h4{
+    font-family: var(--fonte4);
+    font-size: 1em;
     color: white;
-    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col p{
+    font-family: var(--fonte1);
+    font-size: .9em;
+    text-align: left;
+    line-height: 20px;
+    color: white;
+    font-weight: 300;
+    position: relative;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.footer-col ul li a {
+    font-family: var(--fonte1);
+    font-size: .9em;
     text-decoration: none;
-    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.footer-col ul li a:hover {
+    color: #7B1FA2;
+    padding-left: 10px;
+}
+
+.footer-col .medias-sociais {
+    margin-top: 30px;
+}
+
+.footer-col .medias-sociais a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all0.5s ease;
+}
+
+.footer-col .medias-sociais a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-sociais a:hover {
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #7B1FA2;
+}
+
+.footer-col .form-sub input::placeholder{
+    color: white;    
+}
+
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+
+@media (max-width: 800px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+    
+@media (max-width: 600px){
+    .footer-col{
+        width: 100%;
+    }
 }
