@@ -66,7 +66,7 @@ header p {
     background-color: #791e95;
     font-family: var(--fonte1);
     font-size: .8em;
-    font-weight: bolder;
+
     color: white;
     padding: 10px;
     text-align: center;
@@ -78,24 +78,42 @@ header p {
     list-style-position: inside;
 }
 
-.principal > h3 {
-    font-size: 1.3em;
-    color: #791e95;
+.principal h1 {
+    font-family: var(--fonte4);
+    font-size: 1.2em;
+    color: #7B1FA2;
     padding: 10px 0px 10px 5px;
 }
 
+.principal h2 {
+    font-family: var(--fonte4);
+    font-size: 1.2em;
+    color: #49A646;
+    padding: 10px 0px 10px 10px;
+}
+
+.principal h3 {
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+    color: #7B1FA2;
+    padding: 10px 0px 10px 10px;
+}
+
 .principal h4 {
+    font-family: var(--fonte1);
     font-size: 1em;
     color: #413b3b;
     padding: 10px;
 }
 
 .principal p {
+    font-family: var(--fonte2);
     font-size: 1em;
     text-align: justify;
     color: #413b3b;
-    padding-left: 5px;
+    padding: 5px 15px;
     line-height: 1.5em;
+    display: inline-block;
 }
 
 .principal li {
@@ -139,7 +157,8 @@ header p {
 
 .tela figcaption h4 {
     font-size: .8em;
-    color: #791e95;
+    color: #607D8B;
+    margin-right: 25px;
     float:right
 }
 

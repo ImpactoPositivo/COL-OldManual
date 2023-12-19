@@ -33,44 +33,6 @@
     margin: 5px;
 }
 
-.principal h1 {
-    font-family: var(--fonte4);
-    font-size: 1.2em;
-    color: #7B1FA2;
-    padding: 10px 0px 10px 15px;
-}
-
-.principal h2 {
-    font-family: var(--fonte4);
-    font-size: 1.2em;
-    color: #49A646;
-    padding: 10px 0px 10px 15px;
-}
-
-.principal h3 {
-    font-family: var(--fonte2);
-    font-size: 1.2em;
-    color: #7B1FA2;
-    padding: 10px 0px 10px 15px;
-}
-
-.principal h4 {
-    font-family: var(--fonte1);
-    font-size: 1em;
-    color: #413b3b;
-    padding: 10px;
-}
-
-.principal p {
-    font-family: var(--fonte2);
-    font-size: 1em;
-    text-align: justify;
-    color: #413b3b;
-    padding: 5px 15px;
-    line-height: 1.5em;
-    display: inline-block;
-}
-
 .comunicacao ul{
     font-family: var(--fonte2);
     font-size: 1em;

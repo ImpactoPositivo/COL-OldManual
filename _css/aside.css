@@ -45,7 +45,7 @@
 
 }
 
-.menu a {
+.menu li a {
     font-family: var(--fonte3);
     font-weight: 300;
     list-style: none;
@@ -55,11 +55,11 @@
     display: block;
 }
 
-.menu a:hover {
+.menu li a:hover {
     color: white;
     font-weight: bolder;
     list-style: none;
-    padding-left: 15px;
+    padding: 0px 15px 0px 15px;
     background-color: #7B1FA2;
 }
 
