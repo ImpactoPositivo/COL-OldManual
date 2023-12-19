@@ -48,6 +48,7 @@
 .menu li a {
     font-family: var(--fonte3);
     font-weight: 300;
+    height: 1.5em;
     list-style: none;
     padding-left: 15px;
     color: #7B1FA2;
