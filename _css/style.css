@@ -88,9 +88,9 @@ header p {
 
 .principal h2 {
     font-family: var(--fonte4);
-    font-size: 1.2em;
+    font-size: 1em;
     color: #49A646;
-    padding: 10px 0px 10px 10px;
+    padding: 5px 0px 0px 10px;
 }
 
 .principal h3 {
@@ -128,7 +128,7 @@ header p {
 }
 
 .principal p a {
-    color: #413b3b;
+    color: #7B1FA2;
     text-decoration: none;
     font-weight: bold;
 }
@@ -161,6 +161,20 @@ header p {
     color: #607D8B;
     margin-right: 25px;
     float:right
+}
+
+.topico ol {
+    padding-left: 30px;
+    list-style: none;
+}
+
+.topico li {
+    font-family: var(--fonte2);
+    font-size: 1em;
+    line-height: 1.5em;    
+    padding-left: 15px;
+    padding-right: 0px;
+    text-decoration: none;
 }
 
 .mobile {
