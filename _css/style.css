@@ -163,6 +163,41 @@ header p {
     float:right
 }
 
+.row {
+    display: flex;
+}
+
+.pull-left {
+    float: left !important;
+    width: 20vw;
+    padding-top: 10px;
+}
+
+.pull-left img {
+    width: 90%;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.pull-right {
+    float: right !important;
+    width: 30vw;
+    padding-top: 10px;
+}
+
+.pull-right img {
+    width: 90%;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.col-p {
+    width: 25vw;
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .topico ol {
     padding-left: 30px;
     list-style: none;
@@ -178,9 +213,8 @@ header p {
 }
 
 .mobile {
-    width: 15vw;
-    margin: 20px 0px 40px 15px;
-    position: relative;
+    width: 20vw;
+    padding: 15px;
     float: left;
 }
 
@@ -196,18 +230,6 @@ header p {
     padding: 0px;
     margin-top: 5px;
     float: right;
-}
-
-.text_mobile p{
-    position: relative;
-    float: right;
-}
-
-div#wrapp {
-    margin-left: 170px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-
 }
 
 div#atencao {
